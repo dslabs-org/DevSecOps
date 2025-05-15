@@ -1,0 +1,10 @@
+{
+  "custom_detectors": {
+    "generic": {
+      "description": "Generic key-value secret detector",
+      "filename": ".*\\.ya?ml$",
+      "content_regex": "(?i)(username|password|apikey|secret|user|pass|sshkey|token)[\\s:]+.+",
+      "ignore_files": []
+    }
+  }
+}
